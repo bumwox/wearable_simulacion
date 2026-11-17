@@ -60,7 +60,7 @@ class StartScreen extends StatelessWidget {
                 onPressed: () => Navigator.of(context).push(
                   MaterialPageRoute(builder: (_) => const WearableScreen()),
                 ),
-                child: const Text('Iniciar ($min min)'),
+                child: Text('Iniciar ($min min)'),
               ),
               const SizedBox(height: 16),
               const Text(
